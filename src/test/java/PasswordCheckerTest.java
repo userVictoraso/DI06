@@ -41,7 +41,6 @@ public class PasswordCheckerTest {
     public void weakPasswordEqualsTo4Chars() {
         boolean actual = passwordChecker.checkWeakPassword("Vict");
         assertTrue(actual);
-        fail();
     }
     /**Checking weak password with strings greater than 4 chars**/
     @Test
